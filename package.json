@@ -1,0 +1,32 @@
+{
+  "name": "react-project",
+  "version": "1.0.0",
+  "description": "Create a crud app in React",
+  "main": "boxer.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alemneh/react-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alemneh/react-project/issues"
+  },
+  "homepage": "https://github.com/alemneh/react-project#readme",
+  "dependencies": {
+    "react": "^15.0.1"
+  },
+  "devDependencies": {
+    "babel-jest": "^11.0.2",
+    "babel-polyfill": "^6.7.4",
+    "expect": "^1.18.0",
+    "expect-jsx": "^2.5.1",
+    "jest-cli": "^11.0.2",
+    "react-addons-test-utils": "^15.0.1",
+    "react-dom": "^15.0.1"
+  }
+}

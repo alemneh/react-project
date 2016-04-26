@@ -3,7 +3,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const app = express();
-const Boxer = require('./boxer');
+const Boxer = require('./models/boxer');
 const mongoose = require('mongoose');
 process.MONGO_URI = 'mongodb://localhost/P4P';
 mongoose.connect(process.MONGO_URI);
